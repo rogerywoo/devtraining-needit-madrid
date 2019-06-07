@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_58872_needit.admin" name="x_58872_needit.admin">e671cc13dbf133002bfc7b6039961922</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>roger.woo</sys_created_by>
+        <sys_created_on>2019-06-07 17:04:15</sys_created_on>
+        <sys_id>ff81cc13dbf133002bfc7b60399619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e671cc13dbf133002bfc7b6039961922</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ff81cc13dbf133002bfc7b60399619ff</sys_update_name>
+        <sys_updated_by>roger.woo</sys_updated_by>
+        <sys_updated_on>2019-06-07 17:04:15</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
