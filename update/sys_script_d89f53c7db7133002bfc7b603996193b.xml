@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -15,10 +15,12 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition/>
+        <filter_condition table="x_58872_needit_needit">u_requested_forVALCHANGES^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>NeedIt Debugging Practice</name>
+        <name>Display All Open Requests</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,57 +31,46 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	current.short_description = "This text set by the Debugging Business Rules business rule.";
-	var myNum = current.state;
+        // 1. Create an object to store rows from a table
+        var grNeedIt = new GlideRecord('x_58872_needit_needit');
 
-	// The function in this try/catch is not defined
-	try{
-		thisFunctionDoesNotExist();
-	}
-	catch(err){
-		gs.error("NeedIt App: a JavaScript runtime error occurred - " + err);
-	}
+	
+        // 2. Build query
+        grNeedIt.addQuery('active', true);
+        grNeedIt.addQuery('u_requested_for', current.u_requested_for);
 
-	// This function is not defined and is not part of a try/catch
-	   thisFunctionAlsoDoesNotExist();
+        // 3. Execute query 
+        grNeedIt.query();
 
-	// getNum and setNum demonstrate JavaScript Closure
-	var x = 7;
+        // Initialize message to list Caller's active Incidents
+        var msg = "Caller's other active incidents: ";
 
-	function numFunc(){
-		var x = 10;
-		return{
-			getNum: function(){
-				return x;
-			},
-			setNum: function(newNum){
-				x = newNum;
-			}
-		};
-	}
-	var callFunc = numFunc();
-	callFunc.getNum();
-	callFunc.setNum(2);
-	callFunc.getNum();
+        // 4. Process returned records
+        while(grNeedIt.next()){
+            // add a new line to the message for each of the Caller's active Incidents
+            msg = msg + grNeedIt.getValue('number') + ": " + grNeedIt.getValue('short_description') + " | ";
+        }
+
+        gs.addInfoMessage(msg);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
-        <sys_created_on>2019-06-05 16:10:52</sys_created_on>
+        <sys_created_on>2019-06-07 14:36:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>480269e6db7133002bfc7b6039961958</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>NeedIt Debugging Practice</sys_name>
+        <sys_id>d89f53c7db7133002bfc7b603996193b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Display All Open Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_480269e6db7133002bfc7b6039961958</sys_update_name>
+        <sys_update_name>sys_script_d89f53c7db7133002bfc7b603996193b</sys_update_name>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-07 14:56:26</sys_updated_on>
+        <sys_updated_on>2019-06-07 15:29:56</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=480269e6db7133002bfc7b6039961958"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d89f53c7db7133002bfc7b603996193b"/>
 </record_update>

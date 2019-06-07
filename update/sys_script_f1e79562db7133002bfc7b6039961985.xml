@@ -39,10 +39,10 @@
 
 	// If the When needed date is before rightnow, do not write the record to the database
 	// Output an error message to the screen
-	if(needItUtils.isDatePast(rightnow)){
+	if(needItUtils.isDatePast(whenNeeded)){
 		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
 		current.setAbortAction(true);
-	} else if (needItUtils.isDateToday(rightnow)){
+	} else if (needItUtils.isDateToday(whenNeeded)){
 		gs.addErrorMessage("When needed date cannot be today.  Please select a later date.  Your request has not been saved to the database.");
 		current.setAbortAction(true);
 	}
@@ -54,7 +54,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1e79562db7133002bfc7b6039961985</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>NeedIt When needed field date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_f1e79562db7133002bfc7b6039961985</sys_update_name>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-06 17:52:53</sys_updated_on>
+        <sys_updated_on>2019-06-07 15:22:13</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
