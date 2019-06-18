@@ -2,7 +2,7 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update NeedIt State to Closed Complete</comment>
         <compiled_snapshot/>
@@ -14,14 +14,14 @@
         <sys_created_by>roger.woo</sys_created_by>
         <sys_created_on>2019-06-17 17:19:48</sys_created_on>
         <sys_id>5105e312dbc233002bfc7b603996192d</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_action_instance_5105e312dbc233002bfc7b603996192d</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-06-18 17:36:51</sys_updated_on>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-18 18:08:48</sys_updated_on>
         <ui_id>cab16582-d566-45fb-b36f-429c16ec1c5e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5105e312dbc233002bfc7b603996192d"/>
@@ -44,6 +44,34 @@
         <document_key>5105e312dbc233002bfc7b603996192d</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-18 18:08:38</sys_created_on>
+        <sys_id>1ac9b8bedbc233002bfc7b603996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-18 18:08:38</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5105e312dbc233002bfc7b603996192d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-18 18:08:38</sys_created_on>
+        <sys_id>56c9b8bedbc233002bfc7b603996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-18 18:08:38</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5105e312dbc233002bfc7b603996192d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
         <sys_created_on>2019-06-17 17:19:48</sys_created_on>
         <sys_id>d505e312dbc233002bfc7b6039961932</sys_id>
@@ -54,6 +82,18 @@
         <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5105e312dbc233002bfc7b603996192d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5105e312dbc233002bfc7b603996192d</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-18 18:08:38</sys_created_on>
+        <sys_id>12c9b8bedbc233002bfc7b603996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-18 18:08:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{903b8878-328e-4900-aaea-a71309be7632.record}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
         <id>5105e312dbc233002bfc7b603996192d</id>
@@ -79,6 +119,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5105e312dbc233002bfc7b603996192d</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-18 18:08:38</sys_created_on>
+        <sys_id>5ec9b8bedbc233002bfc7b603996199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-18 18:08:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
         <id>5105e312dbc233002bfc7b603996192d</id>
         <sys_created_by>roger.woo</sys_created_by>
@@ -88,6 +140,18 @@
         <sys_updated_by>roger.woo</sys_updated_by>
         <sys_updated_on>2019-06-17 17:19:48</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5105e312dbc233002bfc7b603996192d</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-06-18 18:08:38</sys_created_on>
+        <sys_id>d2c9b8bedbc233002bfc7b603996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-18 18:08:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
 </record_update>

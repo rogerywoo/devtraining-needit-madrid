@@ -3,19 +3,19 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5ad093d2db8233002bfc7b603996193f","name":"plan"}}</plan>
         <plan_id>afd9839edb4233002bfc7b6039961956</plan_id>
-        <snapshot>4c823cb6dbc233002bfc7b60399619ef</snapshot>
+        <snapshot>9ad053d2db8233002bfc7b60399619f5</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
         <sys_created_on>2019-06-17 15:51:41</sys_created_on>
         <sys_id>5ad093d2db8233002bfc7b603996193f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>d6d093d2db8233002bfc7b603996193d</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_flow_trigger_plan_5ad093d2db8233002bfc7b603996193f</sys_update_name>
-        <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-17 16:41:11</sys_updated_on>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-06-18 18:08:46</sys_updated_on>
         <trigger display_value="">d6d093d2db8233002bfc7b603996193d</trigger>
     </sys_flow_trigger_plan>
 </record_update>
