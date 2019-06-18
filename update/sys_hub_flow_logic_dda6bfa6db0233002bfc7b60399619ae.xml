@@ -3,7 +3,7 @@
         <block display_value="">99a6bfa6db0233002bfc7b60399619ad</block>
         <comment/>
         <connected_to/>
-        <decision_table display_value="Assignee Category Decision">c703c866db0633002bfc7b60399619f2</decision_table>
+        <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">afd9839edb4233002bfc7b6039961956</flow>

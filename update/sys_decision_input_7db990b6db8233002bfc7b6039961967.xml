@@ -14,7 +14,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Request Type</column_label>
+        <column_label>What needed</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_request_type</element>
+        <element>u_what_needed</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -35,13 +35,13 @@
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Request Type</label>
+        <label>What needed</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Assignee Category Decision">c703c866db0633002bfc7b60399619f2</model>
-        <model_id>c703c866db0633002bfc7b60399619f2</model_id>
+        <model display_value="Assignee Category Decision">d7595c76db8233002bfc7b60399619c1</model>
+        <model_id>d7595c76db8233002bfc7b60399619c1</model_id>
         <model_table>sys_decision</model_table>
-        <name>var__m_sys_decision_input_c703c866db0633002bfc7b60399619f2</name>
+        <name>var__m_sys_decision_input_d7595c76db8233002bfc7b60399619c1</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
@@ -59,16 +59,16 @@
         <staged>false</staged>
         <sys_class_name>sys_decision_input</sys_class_name>
         <sys_created_by>roger.woo</sys_created_by>
-        <sys_created_on>2019-06-17 19:32:11</sys_created_on>
-        <sys_id>7e338c66db0633002bfc7b6039961951</sys_id>
+        <sys_created_on>2019-06-18 15:48:53</sys_created_on>
+        <sys_id>7db990b6db8233002bfc7b6039961967</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Request Type</sys_name>
+        <sys_name>What needed</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_decision_input_7e338c66db0633002bfc7b6039961951</sys_update_name>
+        <sys_update_name>sys_decision_input_7db990b6db8233002bfc7b6039961967</sys_update_name>
         <sys_updated_by>roger.woo</sys_updated_by>
-        <sys_updated_on>2019-06-17 19:32:11</sys_updated_on>
+        <sys_updated_on>2019-06-18 15:48:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

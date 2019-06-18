@@ -4,6 +4,25 @@
             <dependent_value/>
             <element>u_request_type</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>Facility</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence/>
+            <sys_created_by>roger.woo</sys_created_by>
+            <sys_created_on>2019-06-18 15:43:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88785cf2db8233002bfc7b6039961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roger.woo</sys_updated_by>
+            <sys_updated_on>2019-06-18 15:43:26</sys_updated_on>
+            <value>facility</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
             <inactive>true</inactive>
             <label>Developer Enablement</label>
             <language>en</language>
