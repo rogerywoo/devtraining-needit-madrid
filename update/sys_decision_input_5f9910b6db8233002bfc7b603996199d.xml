@@ -38,7 +38,7 @@
         <label>Request type</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Assignee Category Decision">d7595c76db8233002bfc7b60399619c1</model>
+        <model display_value="">d7595c76db8233002bfc7b60399619c1</model>
         <model_id>d7595c76db8233002bfc7b60399619c1</model_id>
         <model_table>sys_decision</model_table>
         <name>var__m_sys_decision_input_d7595c76db8233002bfc7b60399619c1</name>
